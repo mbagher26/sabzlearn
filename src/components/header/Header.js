@@ -9,11 +9,11 @@ function Header() {
                     <>
                               <Navbar bg="primary" data-bs-theme="dark">
                                         <Container>
-                                                  <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                                                  <Navbar.Brand href="/home">Navbar</Navbar.Brand>
                                                   <Nav className="me-auto">
-                                                            <Link to="/home">Home</Link>
-                                                            <Link to="/courses">sourses</Link>
-                                                            <Link to="/about">about</Link>
+                                                            <Link to="/home" style={{marginLeft: '35px', color:'white'}}>Home</Link>
+                                                            <Link to="/courses" style={{marginLeft: '35px', color:'white'}}>sourses</Link>
+                                                            <Link to="/about" style={{marginLeft: '35px', color:'white'}}>about</Link>
                                                   </Nav>
                                         </Container>
                               </Navbar>
