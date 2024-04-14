@@ -11,8 +11,8 @@ function Courses() {
       <Row>
         {
           coursesData.map(course => (
-            <Col sm={6} md={4}>
-              <Course key={course.id} {...course} />
+            <Col key={course.id} sm={6} md={4}>
+              <Course {...course} />
             </Col>
           ))
         }
