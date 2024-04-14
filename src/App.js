@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
-import { Routes ,Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Courses from './components/courses/Courses';
@@ -12,10 +12,12 @@ function App() {
       <Header />
       <Routes>
         <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/courses' element={<Courses/>} />
-        <Route path='/course/:courseID' element={<Maincourse/>} />
-
+        <Route path='/about' element={<About />}>
+          <Route path='setting' element={<h1>Setting</h1>} />
+          <Route path='dashbord' element={<h1>Dashbord</h1>} />
+        </Route>
+        <Route path='/courses' element={<Courses />} />
+        <Route path='/course/:courseID' element={<Maincourse />} />
       </Routes>
     </div>
   );
