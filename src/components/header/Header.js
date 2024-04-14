@@ -13,7 +13,11 @@ function Header() {
                                                   <Nav className="me-auto">
                                                             <Link to="/home" style={{marginLeft: '35px', color:'white'}}>Home</Link>
                                                             <Link to="/courses" style={{marginLeft: '35px', color:'white'}}>Courses</Link>
-                                                            <Link to="/about" style={{marginLeft: '35px', color:'white'}}>About</Link>
+                                                            <Link to="/about" style={{ marginLeft: '35px', color: 'white' }}>About</Link>
+                                                            <Link to="/login" style={{ marginLeft: '35px', color: 'white' }}>Login</Link>
+                                                            <Link to="/panel" style={{ marginLeft: '35px', color: 'white' }}>Panel</Link>
+                                                            <Link to="/dashbord" style={{ marginLeft: '35px', color: 'white' }}>Dashbord</Link>
+
                                                   </Nav>
                                         </Container>
                               </Navbar>
