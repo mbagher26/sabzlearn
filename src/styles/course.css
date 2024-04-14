@@ -1,0 +1,6 @@
+.course-container {
+          margin-top: 40px auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+}
